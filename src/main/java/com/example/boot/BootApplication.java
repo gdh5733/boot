@@ -8,6 +8,7 @@ public class BootApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(BootApplication.class, args);
+        System.out.println("启动类加载完成!!!!");
     }
 
 }
